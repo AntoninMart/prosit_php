@@ -4,7 +4,7 @@
 /* 'Mochiy Pop P One' */
 
 body{
-    background-color: white;
+    background-color: #fff0f3;
     margin: 0;
     padding: 0;
 }
@@ -26,4 +26,32 @@ header h1 {
     flex-direction: center;
     margin-top: 5vh;
     margin-left: 75vh;
+}
+
+footer{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    padding-top: 2vh;
+    bottom: 0;
+    background-color: #ff5d8f;
+    position: absolute;
+    width: 100%;
+    
+}
+
+a{
+    font-family: 'Mochiy Pop P One';
+    text-decoration: none;
+    color: #ffccd5;
+}
+
+a:hover{
+    color: #590d22;
+}
+
+.mention{
+    display: flex;
+    flex-direction: column;
+    
 }

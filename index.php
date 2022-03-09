@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>UwU php</title>
 </head>
 <body>
       <!--https://openclassrooms.com/forum/sujet/fonction-php-pour-generer-un-tableau-html-->  
@@ -15,8 +15,8 @@
 
     <div class="table">
     <?php
-        $input = array("😊", "🌚", "🚚", "🏴‍☠️", "🌞"); //création d'un tableau
-        $rand_keys = array_rand($input, 2); //prends un élément du tableau au hasard
+        $input = array("😊", "🌚", "🚚", "🏴‍☠️", "🌞", "🦍", "🐒", "🐀", "🎊"); //création d'un tableau
+        $rand_keys = array_rand($input, 8); //8 représente le nb d'entré choisis en loccurence on prends un élément random sur tout notre tableau
         
         //var_dump($rand_keys);
         
@@ -36,6 +36,10 @@
 
     ?>
     </div>
+
+    <footer>
+        <a href="http://localhost:3000/mention-legale.html">🌸 mention légale 🌸</a>
+    </footer>
     
 
 </body>
