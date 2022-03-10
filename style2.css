@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+/* 'Neonderthaw' */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/* 'Mochiy Pop P One' */
+
+
+body {
+    background-color: #fff0f3;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #ff5d8f;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    font-family: 'Neonderthaw';
+}
+
+h1{
+    font-family: 'Mochiy Pop P One';
+}
+
+h2{
+    font-family: 'Mochiy Pop P One';
+}
+
+h3{
+    font-family: 'Mochiy Pop P One';
+}
+
+p{
+    font-family: 'Mochiy Pop P One';
+}
+
+.mention{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

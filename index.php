@@ -15,11 +15,10 @@
 
     <div class="table">
     <?php
-        $input = array("😊", "🌚", "🚚", "🏴‍☠️", "🌞", "🦍", "🐒", "🐀", "🎊"); //création d'un tableau
-        $rand_keys = array_rand($input, 8); //8 représente le nb d'entré choisis en loccurence on prends un élément random sur tout notre tableau
+        $input = array('&#128512', "&#128507", "&#128508", "&#128509", "&#128510", "&#128511", "🖤"); //création d'un tableau
+        $rand_keys = array_rand($input, 6); //8 représente le nb d'entré choisis en loccurence on prends un élément random sur tout notre tableau
         
         //var_dump($rand_keys);
-        
         
         echo '<table>';
         for($i = 1; $i < 17; $i++) {//pour i égale à 1 et jusqua i inférieur à 7 on a joute une ligne
