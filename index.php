@@ -24,7 +24,7 @@
         <span></span>
         <div class="content">
            <?php
-        $input = array('&#128512', "&#128507", "&#128508", "&#128509", "&#128510", "&#128511", "🖤"); //création d'un tableau
+        $input = array('&#128512', "&#128507", "&#128588", "&#128509", "&#128510", "&#128511", "🖤"); //création d'un tableau
         $rand_keys = array_rand($input, 6); //8 représente le nb d'entré choisis en loccurence on prends un élément random sur tout notre tableau
         
         //var_dump($rand_keys);
